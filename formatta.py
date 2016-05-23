@@ -22,7 +22,7 @@ class Del:
 def Getidlibro(isbn):
 	'''Prende un isbn come parametro e restituisce una lista contenente gli id corrispondenti
 	'''
-	miofile="/Users/nicolapietropaolo/Desktop/progetti/codici cideb/test/listalibri.csv"
+	miofile="listalibri.csv"
 	rowCnt=0
 	listalibri={}
 	with open(miofile, 'rt') as f:
