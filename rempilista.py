@@ -1,7 +1,7 @@
 import csv
 
 def listaprova(isbn):
-    miofile="/Users/nicolapietropaolo/Desktop/codici cideb copy/test/listalibri.csv"
+    miofile="listalibri.csv"
     rowCnt=0
     mialista={}
     with open(miofile, 'rt') as f:
